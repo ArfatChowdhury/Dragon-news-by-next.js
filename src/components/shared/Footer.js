@@ -1,4 +1,4 @@
-import { Box, Button, Container, IconButton } from "@mui/material";
+import { Box, Button, Container, IconButton, Typography } from "@mui/material";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import Link from "next/link";
 
@@ -69,7 +69,7 @@ const Footer = () => {
 
                     ))}
                 </Box>
-                <h1 className="text-gray-300 w-full text-center text-sm">@2023 Dragon News. Design by Programming Hero developed by Arfat Chowdhury</h1> 
+                <Typography className="text-gray-300 w-full text-center text-sm">@2023 Dragon News. Design by Programming Hero developed by Arfat Chowdhury</Typography> 
             </Container>
         </Box>
     );

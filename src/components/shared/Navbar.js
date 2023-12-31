@@ -18,6 +18,7 @@ import logo from '@/assets/logo.png'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import Link from 'next/link';
 import { Stack } from '@mui/material';
+import Header from './Header';
 
 
 const NavItems = [
@@ -53,6 +54,8 @@ function Navbar() {
 
 
     return (
+        <>
+        <Header></Header>
         <AppBar position="static" className='bg-black'>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
@@ -99,6 +102,7 @@ function Navbar() {
                 </Toolbar>
             </Container>
         </AppBar>
+        </>
     );
 }
 export default Navbar;
